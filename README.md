@@ -109,9 +109,36 @@ driver.get(“http://www.gmail.com”);
 WebElement gmaillink=driver.findElement(By.id());
 System.out.println(gmaillink.getText());
 ```
-** find_element_by_id**
-** find_element_by_name**
-** find_element_by_xpath**
+**find_element_by_id**
+
+This is the most efficient and preferred method to locate an element. Id's are generally unique values.
+
+![ ](https://user-images.githubusercontent.com/22459679/53169621-d8f60080-35ee-11e9-93d3-fae2f4b3a717.PNG)
+
+```
+driver.find_element_by_id("reset").click()
+```
+
+**find_element_by_name**
+
+Use this when you know name attribute of an element. 
+
+![ ](https://user-images.githubusercontent.com/22459679/53169863-7fda9c80-35ef-11e9-973a-ef14349cf709.PNG)
+
+```
+element=driver.find_element_by_name("fmt")
+```
+
+**find_element_by_class_name**
+This is used by locating element by their class name. But there may be more than one element. This shows only first element. It's not efficient.
+
+![ ](https://user-images.githubusercontent.com/22459679/53170625-a13c8800-35f1-11e9-85b9-b9a03f3abb64.PNG)
+
+```
+driver.find_element_by_class_name("favorite styled")
+```
+
+**find_element_by_xpath**
 
 
 10.  find_elements_by..()
