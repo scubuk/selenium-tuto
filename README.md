@@ -3,7 +3,7 @@
 ## Prerequisites
 * [Python 3+](https://www.python.org/download/releases/3.0/?) - Pyhton 3.6+ version
 * [Selenium](https://github.com/SeleniumHQ/selenium) - Selenium for web automation
-* [PyCharm](https://www.jetbrains.com/pycharm/)-IDE
+* [PyCharm](https://www.jetbrains.com/pycharm/) - IDE
 
 ## Installing 
 **Python Installing**
@@ -70,13 +70,13 @@ It is used to open specified url browser in windows.
 driver.get(http://google.com);
 ```
 
-2. getPageSource().
+2. page_source().
 It is used to get the source of current load page
 ```
-//to launch the browser
-driver.get(“http://www.google.com”);
-pagesource=driver.getPageSource();
-print(pagesource);
+...
+new_source = driver.page_source
+print(new_source)
+...
 ```
 3. close().
 Close the current window, if there are multiple windows, it will close the current window which is active.
@@ -90,7 +90,18 @@ It is used to close every associated window which is opened.
 driver.get(“http://www.google.com”);
 driver.quit();
 ```
-5. findElement().
+5.maximize_window()
+```
+driver.get(“http://www.google.com”);
+driver.maximize_window()
+```
+6.driver.implicitly_wait()
+
+7.sleep()
+
+8.driver.set_page_load_timeout()
+
+9. find_element_by..()
 It is used to find the first WebElement using the given method.
 ```
 //to launch the browser
@@ -98,7 +109,12 @@ driver.get(“http://www.gmail.com”);
 WebElement gmaillink=driver.findElement(By.id());
 System.out.println(gmaillink.getText());
 ```
-6. findElements().
+** find_element_by_id**
+** find_element_by_name**
+** find_element_by_xpath**
+
+
+10.  find_elements_by..()
 It is used to find all elements within the current page
 ```
 //to launch the browser
