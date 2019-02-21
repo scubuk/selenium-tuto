@@ -60,7 +60,7 @@ from selenium import webdriver
 * Run the PyCharm.exe file you've downloaded.
 * Follow the instructions in the installation wizard.
 
-## Deployment
+## Methods
 
 
 **get ()**
@@ -91,15 +91,11 @@ driver.get(“http://www.google.com”);
 driver.quit();
 ```
 **maximize_window()**
+It is used to maximize new window.
 ```
 driver.get(“http://www.google.com”);
 driver.maximize_window()
 ```
-**driver.implicitly_wait()**
-
-**sleep()**
-
-**driver.set_page_load_timeout()**
 
 **find_element_by..()**
 It is used to find the first element using the given method.
@@ -126,7 +122,7 @@ element=driver.find_element_by_name("fmt")
 
 * **find_element_by_class_name**
 
-This is used by locating element by their class name. But there may be more than one element. This shows only first element. It's not efficient.
+This is used by locating element by their class name.
 
 ![ ](https://user-images.githubusercontent.com/22459679/53170625-a13c8800-35f1-11e9-85b9-b9a03f3abb64.PNG)
 
@@ -136,18 +132,18 @@ driver.find_element_by_class_name("favorite styled")
 
 * **find_element_by_xpath**
 
+This is most popular and easiest way to locate elements.
+
+![ ](https://user-images.githubusercontent.com/22459679/53171414-af8ba380-35f3-11e9-9025-9d3702e93a63.PNG)
+
+```
+driver.find_element_by_xpath('//input[@placeholder="Must be unique"]')
+```
 
 **find_elements_by..()**
 
 It is used to find all elements within the current page
-```
-//to launch the browser
-driver.get(“http://www.facebook.com”);
-//to findelements
-List links=driver.findElements(By.TagName(“a”));
-//Counting no of links in result page
-System.out.println(links.size());
-``` 
+
 ## Running the tests
 
 * Open command prompt.
@@ -161,10 +157,3 @@ python test.py
 ``` 
 * Browser will open automatically and will close itself.
 
-[Title] (link) 
-
-<code>  Kod örnegi </code>
-
-![İsim] (https://i.hizliresim.com/V0Jv7q.png)
-
-![resim] (face1.png)
