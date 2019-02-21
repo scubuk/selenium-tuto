@@ -63,14 +63,14 @@ from selenium import webdriver
 ## Deployment
 
 
-1. get ().
+**get ()**
 It is used to open specified url browser in windows.
 ```
 //to launch the browser
 driver.get(http://google.com);
 ```
 
-2. page_source().
+**page_source()**
 It is used to get the source of current load page
 ```
 ...
@@ -78,38 +78,33 @@ new_source = driver.page_source
 print(new_source)
 ...
 ```
-3. close().
+**close()**
 Close the current window, if there are multiple windows, it will close the current window which is active.
 ```
 driver.get(“http://www.google.com”);
 driver.close();
 ```
-4. quit().
+**quit()**
 It is used to close every associated window which is opened.
 ```
 driver.get(“http://www.google.com”);
 driver.quit();
 ```
-5.maximize_window()
+**maximize_window()**
 ```
 driver.get(“http://www.google.com”);
 driver.maximize_window()
 ```
-6.driver.implicitly_wait()
+**driver.implicitly_wait()**
 
-7.sleep()
+**sleep()**
 
-8.driver.set_page_load_timeout()
+**driver.set_page_load_timeout()**
 
-9. find_element_by..()
-It is used to find the first WebElement using the given method.
-```
-//to launch the browser
-driver.get(“http://www.gmail.com”);
-WebElement gmaillink=driver.findElement(By.id());
-System.out.println(gmaillink.getText());
-```
-**find_element_by_id**
+**find_element_by..()**
+It is used to find the first element using the given method.
+
+* **find_element_by_id**
 
 This is the most efficient and preferred method to locate an element. Id's are generally unique values.
 
@@ -119,7 +114,7 @@ This is the most efficient and preferred method to locate an element. Id's are g
 driver.find_element_by_id("reset").click()
 ```
 
-**find_element_by_name**
+* **find_element_by_name**
 
 Use this when you know name attribute of an element. 
 
@@ -129,7 +124,8 @@ Use this when you know name attribute of an element.
 element=driver.find_element_by_name("fmt")
 ```
 
-**find_element_by_class_name**
+* **find_element_by_class_name**
+
 This is used by locating element by their class name. But there may be more than one element. This shows only first element. It's not efficient.
 
 ![ ](https://user-images.githubusercontent.com/22459679/53170625-a13c8800-35f1-11e9-85b9-b9a03f3abb64.PNG)
@@ -138,10 +134,11 @@ This is used by locating element by their class name. But there may be more than
 driver.find_element_by_class_name("favorite styled")
 ```
 
-**find_element_by_xpath**
+* **find_element_by_xpath**
 
 
-10.  find_elements_by..()
+**find_elements_by..()**
+
 It is used to find all elements within the current page
 ```
 //to launch the browser
