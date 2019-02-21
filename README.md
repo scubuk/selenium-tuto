@@ -36,8 +36,10 @@ $ pip install selenium
 ```
 
 * Selenium requires a driver to interface with the chosen browser.
- >  [Click for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads) 
+ >  [Click for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+ 
  >  [Click for FireFox](https://github.com/mozilla/geckodriver/releases)
+ 
  >  [Click for safari](https://webkit.org/blog/6900/webdriver-support-in-safari-10)
 
 * Extract the downloaded driver onto a folder.
@@ -110,7 +112,8 @@ System.out.println(links.size());
 
 * Open command prompt.
 * Go to your project folder. 
-``` cd C:\Users\your\project\location
+``` 
+cd C:\Users\your\project\location
 ``` 
 * Run your test.py class.
 ``` 
