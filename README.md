@@ -132,12 +132,18 @@ driver.find_element_by_class_name("favorite styled")
 
 * **find_element_by_xpath**
 
-This is most popular and easiest way to locate elements.
+This is most popular and easiest way to locate elements. This is used to find element by their specific path in case of duplicate id's and names.
+To find the xpath of html code; right click on the element, click copy and choose "Copy XPath".
 
 ![ ](https://user-images.githubusercontent.com/22459679/53171414-af8ba380-35f3-11e9-9025-9d3702e93a63.PNG)
 
+These are different usage of find_element_by_xpath;
+
 ```
 driver.find_element_by_xpath('//input[@placeholder="Must be unique"]')
+```
+```
+driver.find_element_by_xpath('//*[@id="user-edit-page"]/form/div[6]/div/div/input')
 ```
 
 **find_elements_by..()**
