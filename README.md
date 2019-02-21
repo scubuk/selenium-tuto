@@ -9,7 +9,7 @@
 **Python Installing**
 
 * Download [Python 3](https://www.python.org/download/releases/3.0/?) from given the link.  
-* And while you're installing make sure to check the box that says Add Python 3.x to PATH as shown to ensure that the interpreter will be placed in your execution path.
+* And while you're installing make sure to check the box that says Add Python 3.x to PATH.
 
 ![ ](https://user-images.githubusercontent.com/22459679/53161894-e786ec80-35db-11e9-89ec-dbd807c9c3b0.PNG)
 
