@@ -8,7 +8,8 @@
 ## Installing 
 **Python Installing**
 
-Download Python3+ from giving the link below and while you're installing make sure to check the box that says Add Python 3.x to PATH as shown to ensure that the interpreter will be placed in your execution path.
+* Download [Python 3](https://www.python.org/download/releases/3.0/?) from given the link.  
+* And while you're installing make sure to check the box that says Add Python 3.x to PATH as shown to ensure that the interpreter will be placed in your execution path.
 
 ![ ](https://user-images.githubusercontent.com/22459679/53161894-e786ec80-35db-11e9-89ec-dbd807c9c3b0.PNG)
 
@@ -29,19 +30,19 @@ You can verify that pip was installed correctly by opening a command prompt and 
 
 **Selenium Installing**
 
-Step 1: Install Selenium 
+* Install Selenium 
 ```sh
 $ pip install selenium
 ```
 
-Step 2: Selenium requires a driver to interface with the chosen browser.
-* >  [Click for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads) 
-* >  [Click for FireFox](https://github.com/mozilla/geckodriver/releases)
-* >  [Click for safari](https://webkit.org/blog/6900/webdriver-support-in-safari-10)
+* Selenium requires a driver to interface with the chosen browser.
+ >  [Click for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads) 
+ >  [Click for FireFox](https://github.com/mozilla/geckodriver/releases)
+ >  [Click for safari](https://webkit.org/blog/6900/webdriver-support-in-safari-10)
 
-Step 3: Extract the downloaded driver onto a folder
+* Extract the downloaded driver onto a folder.
 
-Step 4: Test your setup
+* Test your setup
 
 ```
 from selenium import webdriver
@@ -76,7 +77,7 @@ pagesource=driver.getPageSource();
 print(pagesource);
 ```
 3. close().
-Close the current window, if there are multiple windows, it will close the current window which is active and quits the browser if it’s the last window opened currently.
+Close the current window, if there are multiple windows, it will close the current window which is active.
 ```
 driver.get(“http://www.google.com”);
 driver.close();
@@ -106,6 +107,16 @@ List links=driver.findElements(By.TagName(“a”));
 System.out.println(links.size());
 ``` 
 ## Running the tests
+
+* Open command prompt.
+* Go to your project folder. 
+``` cd C:\Users\your\project\location
+``` 
+* Run your test.py class.
+``` 
+python test.py
+``` 
+* Browser will open automatically and will close itself.
 
 [Title] (link) 
 
