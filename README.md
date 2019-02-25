@@ -70,13 +70,18 @@ from selenium import webdriver
  ![ ](https://user-images.githubusercontent.com/22459679/53338136-ff2fdf00-3913-11e9-9bf7-5cc549aeb8ae.PNG)
  
 * Create your Python Package for right click to your project name.
+
 ![ ](https://user-images.githubusercontent.com/22459679/53338368-88dfac80-3914-11e9-9041-27f9e98459d1.png)
 
 * Create your Python File by doing following steps.
+
 ![ ](https://user-images.githubusercontent.com/22459679/53338688-600be700-3915-11e9-868d-6014b4f2aef6.png)
 
 * Write your Python file name like below and then click OK.
+
 ![ ](https://user-images.githubusercontent.com/22459679/53338918-f213ef80-3915-11e9-9189-ea7643b32c5e.PNG)
+
+* Now, you are all set up for writing your test automation.
 
 ## Methods
 
