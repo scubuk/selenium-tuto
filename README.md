@@ -1,14 +1,15 @@
 # Python Selenium Web Testing
 
 ## Prerequisites
-* [Python 3+]- Pyhton 3.6+ version
-* [Selenium]- Selenium for web automation
-* [PyCharm]- IDE
+* Python 3+ - Pyhton 3.6+ version
+* Selenium - Selenium for web automation
+* PyCharm - IDE
 
 ## Installing 
 **Python Installing**
 
-* Download [Python 3](https://www.python.org/download/releases/3.0/?) from given the link.  
+* Download [Python 3](https://www.python.org/download/releases/3.0/?) from given the link.
+   ![ ](https://user-images.githubusercontent.com/22459679/53340936-4a012500-391b-11e9-895a-9b40af653787.PNG)
 * And while you're installing make sure to check the box that says Add Python 3.x to PATH.
 
 ![ ](https://user-images.githubusercontent.com/22459679/53161894-e786ec80-35db-11e9-89ec-dbd807c9c3b0.PNG)
