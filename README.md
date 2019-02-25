@@ -22,7 +22,7 @@ Once you’ve confirmed that Python is correctly installed, you can proceed with
 * Open a command prompt, Windows+R and write cmd.
 * Navigate to the folder containing get-pip.py. 
 
- ![ ](https://user-images.githubusercontent.com/22459679/53339475-85015980-3917-11e9-8b8e-928805f0c33e.PNG)
+   ![ ](https://user-images.githubusercontent.com/22459679/53339475-85015980-3917-11e9-8b8e-928805f0c33e.PNG)
 * Run the following command:
 ```
 python get-pip.py
