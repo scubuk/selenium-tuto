@@ -54,6 +54,9 @@ $ pip install selenium
 **PyCharm Installing**
 
 * Download [PyCharm](https://www.jetbrains.com/pycharm/) from this link.
+
+   ![ ](https://user-images.githubusercontent.com/22459679/53341189-f5aa7500-391b-11e9-9bca-217954dc37a7.PNG)
+   
 * Run the PyCharm.exe file you've downloaded.
 * Follow the instructions in the installation wizard.
 
