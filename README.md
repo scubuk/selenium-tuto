@@ -205,4 +205,7 @@ python test.py
 * Or right click somewhere on your editor body and Click Run 'testAutomation.py'
 * Or click green run button on main menu.
 
-![ ](https://user-images.githubusercontent.com/22459679/53340096-2937d000-3919-11e9-9474-76e68309eec9.PNG)
+![ ](https://user-images.githubusercontent.com/22459679/53341326-4cb04a00-391c-11e9-963b-1a42d6699969.PNG)
+
+* Browser will open automatically and will close itself.
+
