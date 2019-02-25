@@ -83,7 +83,7 @@ $ pip install selenium
 
 * Now, you are all set up for writing your test automation.
 
-* Test your setup
+* Test your setup (For running instructions go to 'Running the tests')
 
 ```
 from selenium import webdriver
@@ -205,7 +205,7 @@ python test.py
 * Or right click somewhere on your editor body and Click Run 'testAutomation.py'
 * Or click green run button on main menu.
 
-![ ](https://user-images.githubusercontent.com/22459679/53341326-4cb04a00-391c-11e9-963b-1a42d6699969.PNG)
+ ![ ](https://user-images.githubusercontent.com/22459679/53341326-4cb04a00-391c-11e9-963b-1a42d6699969.PNG)
 
 * Browser will open automatically and will close itself.
 
