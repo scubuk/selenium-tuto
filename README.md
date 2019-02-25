@@ -33,12 +33,12 @@ You can verify that pip was installed correctly by opening a command prompt and 
 
 **Selenium Installing**
 
-* Install Selenium 
+* Open your cmd and install Selenium. 
 ```sh
 $ pip install selenium
 ```
 
-* Selenium requires a driver to interface with the chosen browser.
+* Selenium requires a driver to interface with the chosen browser. Download one of them. 
  >  [Click for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads)
  
  >  [Click for FireFox](https://github.com/mozilla/geckodriver/releases)
@@ -46,19 +46,19 @@ $ pip install selenium
  >  [Click for Safari](https://webkit.org/blog/6900/webdriver-support-in-safari-10)
 
 * Extract the downloaded driver onto a folder.
-
+* Keep your driver path. You'll need this.
 * You are done.
 
 **PyCharm Installing**
 
-* Download [PyCharm](https://www.jetbrains.com/pycharm/)
+* Download [PyCharm](https://www.jetbrains.com/pycharm/) from this link.
 * Run the PyCharm.exe file you've downloaded.
 * Follow the instructions in the installation wizard.
 
 ## Creating a PyCharm Project
 
 * Open PyCharm.
-* On the main maneu click File | New Project | Pure Python | Choose your project location.
+* On the main menu click File | New Project | Pure Python | Choose your project location.
 * Click Create.
 
  ![ ](https://user-images.githubusercontent.com/22459679/53338074-cb54b980-3913-11e9-8339-2b01038e907a.png)
@@ -180,7 +180,7 @@ driver.find_element_by_xpath('//*[@id="user-edit-page"]/form/div[6]/div/div/inpu
 
 It is used to find all elements within the current page
 
-## Running the tests
+## Running the tests from Cmd
 
 * Open command prompt.
 * Go to your project folder. 
@@ -193,3 +193,11 @@ python test.py
 ``` 
 * Browser will open automatically and will close itself.
 
+## Running the tests from PyCharm
+
+* Use Ctrl + Shift + F10 shortcut.
+
+* Or right click somewhere on your editor body and Click Run 'testAutomation.py'
+* Or click green run button on main menu.
+
+![ ](https://user-images.githubusercontent.com/22459679/53340096-2937d000-3919-11e9-9474-76e68309eec9.PNG)
