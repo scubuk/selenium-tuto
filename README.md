@@ -130,6 +130,36 @@ It is used to maximize new window.
 driver.get(“http://www.google.com”);
 driver.maximize_window()
 ```
+**back()**
+
+```
+driver.back()
+```
+
+**time()**
+```
+```
+**set_page_load_timeout()**
+
+```
+```
+**implicitly_wait()**
+
+```
+driver.implicitly_wait(20)
+```
+**get_screenshot_as_file()**
+
+```
+driver.get_screenshot_as_file("app3.png")
+```
+
+**switch_the_window()**
+
+```
+driver.switch_to.window(driver.window_handles[-1])
+driver.switch_to.window(driver.window_handles[0])
+```
 
 **find_element_by..()**
 It is used to find the first element using the given method.
@@ -184,6 +214,7 @@ driver.find_element_by_xpath('//*[@id="user-edit-page"]/form/div[6]/div/div/inpu
 **find_elements_by..()**
 
 It is used to find all elements within the current page
+
 
 ## Selenium Operations and Elements
 
