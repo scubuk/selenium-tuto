@@ -19,7 +19,9 @@ You can check your Python is correctly installed like below.
 
 Once you’ve confirmed that Python is correctly installed, you can proceed with installing Pip.
 * Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer.
-* Open a command prompt and navigate to the folder containing get-pip.py.
+* Open a command prompt, Windows+R and write cmd.
+* Navigate to the folder containing get-pip.py. 
+![ ](https://user-images.githubusercontent.com/22459679/53339475-85015980-3917-11e9-8b8e-928805f0c33e.PNG)
 * Run the following command:
 ```
 python get-pip.py
