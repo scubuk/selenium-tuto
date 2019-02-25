@@ -94,7 +94,7 @@ from selenium import webdriver
     driver.close()
 ```
 
-## Methods
+## Selenium Methods
 
 
 **get ()**
@@ -184,6 +184,31 @@ driver.find_element_by_xpath('//*[@id="user-edit-page"]/form/div[6]/div/div/inpu
 **find_elements_by..()**
 
 It is used to find all elements within the current page
+
+## Selenium Operations and Elements
+
+**click()**
+
+This is used to click on web elements like link, button, radio button, checkbox, images.
+
+```
+driver.find_element_by_id("submitBtn").click()
+```
+
+**send_keys()**
+
+This is used to sending inputs into text fields and text areas.
+
+```
+driver.find_element_by_xpath('//input[@placeholder="Enter role name or code"]').send_keys("test")
+```
+
+* You need to import **from selenium.webdriver.common.keys import Keys** to use keyboard keys(ENTER,CTRL..) as a key.
+
+```
+driver.find_element_by_xpath('//input[@placeholder="Enter role name or code"]').send_keys(Keys.ENTER)
+```
+
 
 ## Running the tests from Cmd
 
