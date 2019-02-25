@@ -40,20 +40,12 @@ $ pip install selenium
  
  >  [Click for FireFox](https://github.com/mozilla/geckodriver/releases)
  
- >  [Click for safari](https://webkit.org/blog/6900/webdriver-support-in-safari-10)
+ >  [Click for Safari](https://webkit.org/blog/6900/webdriver-support-in-safari-10)
 
 * Extract the downloaded driver onto a folder.
 
-* Test your setup
+* You are done.
 
-```
-from selenium import webdriver
-    import time
-    driver= webdriver.Chrome()
-    driver.get('http://google.com')
-    time.sleep(2)
-    driver.close()
-```
 **PyCharm Installing**
 
 * Download [PyCharm](https://www.jetbrains.com/pycharm/)
@@ -82,6 +74,17 @@ from selenium import webdriver
 ![ ](https://user-images.githubusercontent.com/22459679/53338918-f213ef80-3915-11e9-9189-ea7643b32c5e.PNG)
 
 * Now, you are all set up for writing your test automation.
+
+* Test your setup
+
+```
+from selenium import webdriver
+    import time
+    driver= webdriver.Chrome()
+    driver.get('http://google.com')
+    time.sleep(2)
+    driver.close()
+```
 
 ## Methods
 
