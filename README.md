@@ -104,6 +104,7 @@ from selenium import webdriver
 
 
 **get ()**
+
 It is used to open specified url browser in windows.
 ```
 ...
@@ -113,6 +114,7 @@ driver.get(http://google.com);
 ```
 
 **page_source()**
+
 It is used to get the source of current load page
 ```
 ...
@@ -122,6 +124,7 @@ print(new_source)
 ```
 
 **close()**
+
 Close the current window, if there are multiple windows, it will close the current window which is active.
 ```
 ...
@@ -131,6 +134,7 @@ driver.close();
 ```
 
 **quit()**
+
 It is used to close every associated window which is opened.
 ```
 ...
@@ -140,6 +144,7 @@ driver.quit();
 ```
 
 **maximize_window()**
+
 It is used to maximize new window.
 ```
 ...
@@ -149,6 +154,7 @@ driver.maximize_window()
 ```
 
 **back()**
+
 This method does the same operation as clicking on the Back Button of any browser.
 ```
 ...
@@ -157,6 +163,7 @@ driver.back()
 ```
 
 **time()**
+
 It always force the browser to wait for a specific time. We need to import time class. Its not preferred method.
 **import time**
 ```
@@ -165,6 +172,7 @@ driver.sleep(1000)
 ...
 ```
 **set_page_load_timeout()**
+
 Its used to set page loading time. 
 
 ```
@@ -173,6 +181,7 @@ driver.set_page_load_timeout(20)
 ...
 ```
 **implicitly_wait()**
+
 It is used to wait certain time before processing next following code.
 ```
 ...
@@ -189,6 +198,7 @@ driver.get_screenshot_as_file("app3.png")
 ```
 
 **switch_the_window()**
+
 This is used to switching 2 open windows. Sometimes you open new window and you still in previous window. You need to switch between 2 windows.
 
 ```
@@ -199,6 +209,7 @@ driver.switch_to.window(driver.window_handles[0])
 ```
 
 **find_element_by..()**
+
 It is used to find the first element using the given method.
 
 * **find_element_by_id**
