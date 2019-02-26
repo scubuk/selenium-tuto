@@ -65,7 +65,7 @@ $ pip install selenium
 * Open PyCharm.
 * Click Create New Project on the Welcome Screen.
 
-![ ](https://www.jetbrains.com/help/img/idea/2018.3/py_welcomeScreen.png)
+  ![ ](https://www.jetbrains.com/help/img/idea/2018.3/py_welcomeScreen.png)
 
 * Or on the main menu click File | New Project | Pure Python | Choose your project location.
 * Click Create.
@@ -73,7 +73,7 @@ $ pip install selenium
  ![ ](https://user-images.githubusercontent.com/22459679/53338074-cb54b980-3913-11e9-8339-2b01038e907a.png)
  ![ ](https://user-images.githubusercontent.com/22459679/53338136-ff2fdf00-3913-11e9-9bf7-5cc549aeb8ae.PNG)
  
-* Create your Python Package to right click on your project name.
+* Create your Python Package to right click on your project name. New | Python Package.
 
 ![ ](https://user-images.githubusercontent.com/22459679/53338368-88dfac80-3914-11e9-9041-27f9e98459d1.png)
 
@@ -87,25 +87,29 @@ $ pip install selenium
 
 * Now, you are all set up for writing your test automation.
 
-* Test your setup (For running instructions go to 'Running the tests')
+
+
+## Selenium Methods
+
+When we get the driver object, with these methods that we can perform on a driver. Before we write these methods we have to import webdriver and test our setup(For running instructions go to 'Running the tests'). In PyCharm IDE when we add (.) you will see all the below methods.
 
 ```
 from selenium import webdriver
-    import time
+    
     driver= webdriver.Chrome()
     driver.get('http://google.com')
-    time.sleep(2)
+   
     driver.close()
 ```
-
-## Selenium Methods
 
 
 **get ()**
 It is used to open specified url browser in windows.
 ```
+...
 //to launch the browser
 driver.get(http://google.com);
+...
 ```
 
 **page_source()**
@@ -116,53 +120,75 @@ new_source = driver.page_source
 print(new_source)
 ...
 ```
+
 **close()**
 Close the current window, if there are multiple windows, it will close the current window which is active.
 ```
+...
 driver.get(“http://www.google.com”);
 driver.close();
+...
 ```
+
 **quit()**
 It is used to close every associated window which is opened.
 ```
+...
 driver.get(“http://www.google.com”);
 driver.quit();
+...
 ```
+
 **maximize_window()**
 It is used to maximize new window.
 ```
+...
 driver.get(“http://www.google.com”);
 driver.maximize_window()
+...
 ```
+
 **back()**
 
 ```
+...
 driver.back()
+...
 ```
 
 **time()**
 ```
+...
+...
 ```
 **set_page_load_timeout()**
 
 ```
+...
+...
 ```
 **implicitly_wait()**
 
 ```
+...
 driver.implicitly_wait(20)
+...
 ```
 **get_screenshot_as_file()**
 
 ```
+...
 driver.get_screenshot_as_file("app3.png")
+...
 ```
 
 **switch_the_window()**
 
 ```
+...
 driver.switch_to.window(driver.window_handles[-1])
 driver.switch_to.window(driver.window_handles[0])
+...
 ```
 
 **find_element_by..()**
@@ -175,7 +201,9 @@ This is the most efficient and preferred method to locate an element. Id's are g
 ![ ](https://user-images.githubusercontent.com/22459679/53169621-d8f60080-35ee-11e9-93d3-fae2f4b3a717.PNG)
 
 ```
-driver.find_element_by_id("reset").click()
+...
+driver.find_element_by_id("reset")
+...
 ```
 
 * **find_element_by_name**
@@ -185,7 +213,9 @@ Use this when you know name attribute of an element.
 ![ ](https://user-images.githubusercontent.com/22459679/53169863-7fda9c80-35ef-11e9-973a-ef14349cf709.PNG)
 
 ```
+...
 element=driver.find_element_by_name("fmt")
+...
 ```
 
 * **find_element_by_class_name**
@@ -195,7 +225,9 @@ This is used by locating element by their class name.
 ![ ](https://user-images.githubusercontent.com/22459679/53170625-a13c8800-35f1-11e9-85b9-b9a03f3abb64.PNG)
 
 ```
+...
 driver.find_element_by_class_name("favorite styled")
+...
 ```
 
 * **find_element_by_xpath**
@@ -209,10 +241,14 @@ To find the xpath of html code; right click on the element, click copy and choos
 These are different usage of find_element_by_xpath;
 
 ```
+...
 driver.find_element_by_xpath('//input[@placeholder="Must be unique"]')
+...
 ```
 ```
+...
 driver.find_element_by_xpath('//*[@id="user-edit-page"]/form/div[6]/div/div/input')
+...
 ```
 
 **find_elements_by..()**
@@ -227,7 +263,9 @@ It is used to find all elements within the current page
 This is used to click on web elements like link, button, radio button, checkbox, images.
 
 ```
+...
 driver.find_element_by_id("submitBtn").click()
+...
 ```
 
 **send_keys()**
@@ -235,13 +273,17 @@ driver.find_element_by_id("submitBtn").click()
 This is used to sending inputs into text fields and text areas.
 
 ```
+...
 driver.find_element_by_xpath('//input[@placeholder="Enter role name or code"]').send_keys("test")
+...
 ```
 
 * You need to import **from selenium.webdriver.common.keys import Keys** to use keyboard keys(ENTER,CTRL..) as a key.
 
 ```
+...
 driver.find_element_by_xpath('//input[@placeholder="Enter role name or code"]').send_keys(Keys.ENTER)
+...
 ```
 
 
@@ -250,11 +292,15 @@ driver.find_element_by_xpath('//input[@placeholder="Enter role name or code"]').
 * Open command prompt.
 * Go to your project folder. 
 ``` 
+...
 cd C:\Users\your\project\location
+...
 ``` 
 * Run your test.py class.
 ``` 
+...
 python test.py
+...
 ``` 
 * Browser will open automatically and will close itself.
 
