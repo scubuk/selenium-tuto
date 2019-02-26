@@ -10,7 +10,7 @@
 
 * Download [Python 3](https://www.python.org/download/releases/3.0/?) from given the link.
    
-   ![ ](https://user-images.githubusercontent.com/22459679/53340936-4a012500-391b-11e9-895a-9b40af653787.PNG)
+   ![ ](https://user-images.githubusercontent.com/22459679/53389876-2df49680-39a2-11e9-8e04-fad1a4b946df.PNG)
 * And while you're installing make sure to check the box that says Add Python 3.x to PATH.
 
 ![ ](https://user-images.githubusercontent.com/22459679/53161894-e786ec80-35db-11e9-89ec-dbd807c9c3b0.PNG)
@@ -66,6 +66,7 @@ $ pip install selenium
 * Click Create New Project on the Welcome Screen.
 
 ![ ](https://www.jetbrains.com/help/img/idea/2018.3/py_welcomeScreen.png)
+
 * On the main menu click File | New Project | Pure Python | Choose your project location.
 * Click Create.
 
