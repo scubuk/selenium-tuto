@@ -35,6 +35,8 @@ You can verify that pip was installed correctly by opening a command prompt and 
 
 **Selenium Installing**
 
+Selenium is a browser automation tool. Portable framework for testing web application.
+
 * Open your cmd and install Selenium. 
 ```sh
 $ pip install selenium
