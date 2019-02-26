@@ -20,8 +20,8 @@ You can check your Python is correctly installed like below.
 ![ ](https://user-images.githubusercontent.com/22459679/53161895-e81f8300-35db-11e9-9b7e-753a292c6fe2.PNG)
 
 Once you’ve confirmed that Python is correctly installed, you can proceed with installing Pip.
-* Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer.
-* Open a command prompt, Windows+R and write cmd.
+* Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer. Open the link and Right-Click | Save As.
+* Open a command prompt. (Windows+R and write cmd.)
 * Navigate to the folder containing get-pip.py. 
 
    ![ ](https://user-images.githubusercontent.com/22459679/53339475-85015980-3917-11e9-8b8e-928805f0c33e.PNG)
@@ -63,6 +63,9 @@ $ pip install selenium
 ## Creating a PyCharm Project
 
 * Open PyCharm.
+* Click Create New Project on the Welcome Screen.
+
+![ ](https://www.jetbrains.com/help/img/idea/2018.3/py_welcomeScreen.png)
 * On the main menu click File | New Project | Pure Python | Choose your project location.
 * Click Create.
 
