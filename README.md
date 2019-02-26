@@ -149,7 +149,7 @@ driver.maximize_window()
 ```
 
 **back()**
-
+This method does the same operation as clicking on the Back Button of any browser.
 ```
 ...
 driver.back()
@@ -157,18 +157,23 @@ driver.back()
 ```
 
 **time()**
+It always force the browser to wait for a specific time. We need to import time class. Its not preferred method.
+**import time**
 ```
 ...
+driver.sleep(1000)
 ...
 ```
 **set_page_load_timeout()**
+Its used to set page loading time. 
 
 ```
 ...
+driver.set_page_load_timeout(20)
 ...
 ```
 **implicitly_wait()**
-
+It is used to wait certain time before processing next following code.
 ```
 ...
 driver.implicitly_wait(20)
@@ -176,6 +181,7 @@ driver.implicitly_wait(20)
 ```
 **get_screenshot_as_file()**
 
+Its used to get a screenshot of current page and save this as a specified file(png,jpeg..).
 ```
 ...
 driver.get_screenshot_as_file("app3.png")
@@ -183,6 +189,7 @@ driver.get_screenshot_as_file("app3.png")
 ```
 
 **switch_the_window()**
+This is used to switching 2 open windows. Sometimes you open new window and you still in previous window. You need to switch between 2 windows.
 
 ```
 ...
