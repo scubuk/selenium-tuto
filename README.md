@@ -310,16 +310,14 @@ driver.find_element_by_xpath('//input[@placeholder="Enter role name or code"]').
 * Open command prompt.
 * Go to your project folder. 
 ``` 
-...
 cd C:\Users\your\project\location
-...
 ``` 
 * Run your test.py class.
 ``` 
-...
 python test.py
-...
 ``` 
+ ![ ](https://user-images.githubusercontent.com/22459679/53393390-4ae29700-39ad-11e9-80b9-2009c88185fb.PNG)
+ 
 * Browser will open automatically and will close itself.
 
 ## Running the tests from PyCharm
