@@ -65,7 +65,7 @@ $ pip install selenium
 * Open PyCharm.
 * Click Create New Project on the Welcome Screen.
 
-<img src="https://www.jetbrains.com/help/img/idea/2018.3/py_welcomeScreen.png" width="500" height="500">
+<img src="https://www.jetbrains.com/help/img/idea/2018.3/py_welcomeScreen.png" width="600" height="500">
 * Or on the main menu click File | New Project | Pure Python | Choose your project location.
 * Click Create.
 
