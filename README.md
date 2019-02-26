@@ -66,10 +66,13 @@ $ pip install selenium
 * Click Create New Project on the Welcome Screen.
 
 <img src="https://www.jetbrains.com/help/img/idea/2018.3/py_welcomeScreen.png" width="700" height="500">
+
 * Or on the main menu click File | New Project | Pure Python | Choose your project location.
+
 * Click Create.
 
  ![ ](https://user-images.githubusercontent.com/22459679/53338074-cb54b980-3913-11e9-8339-2b01038e907a.png)
+ 
  ![ ](https://user-images.githubusercontent.com/22459679/53338136-ff2fdf00-3913-11e9-9bf7-5cc549aeb8ae.PNG)
  
 * Create your Python Package to right click on your project name. New | Python Package.
@@ -90,7 +93,8 @@ $ pip install selenium
 
 ## Selenium Methods
 
-When we get the driver object, with these methods that we can perform on a driver. Before we write these methods we have to import webdriver and test our setup(For running instructions go to 'Running the tests'). In PyCharm IDE when we add (.) you will see all the below methods.
+When we get the driver object, with these methods that we can perform on a driver. Before we write these methods we have to import webdriver and test our setup(For running instructions go to 'Running the tests'). 
+
 
 ```
 from selenium import webdriver
@@ -189,7 +193,7 @@ driver.implicitly_wait(20)
 ```
 **get_screenshot_as_file()**
 
-Its used to get a screenshot of current page and save this as a specified file(png,jpeg..).
+It is used to get a screenshot of current page and save this as a specified file(png,jpeg..).
 ```
 ...
 driver.get_screenshot_as_file("app3.png")
@@ -210,17 +214,18 @@ driver.switch_to.window(driver.window_handles[0])
 **find_element_by..()**
 
 It is used to find the first element using the given method. 
-To learn web page element, Right Click on web page | Click Inspect.
+
+* To learn web page element, Right Click on web page | Click Inspect.
  
-![ ](https://user-images.githubusercontent.com/22459679/53395453-f2ae9380-39b2-11e9-8e1d-6d204faf0f8a.png)
+  ![ ](https://user-images.githubusercontent.com/22459679/53395453-f2ae9380-39b2-11e9-8e1d-6d204faf0f8a.png)
 
-Click that item. 
+* Click that item. 
 
-![ ](https://user-images.githubusercontent.com/22459679/53395630-5df86580-39b3-11e9-918c-bc391d88e035.png)
+  ![ ](https://user-images.githubusercontent.com/22459679/53395630-5df86580-39b3-11e9-918c-bc391d88e035.png)
 
-Select an element on the page to inspect it.
+* Select an element on the page to inspect it.
 
-![ ](https://user-images.githubusercontent.com/22459679/53396024-7a48d200-39b4-11e9-8f3f-d7c83a8a85ad.png)
+  ![ ](https://user-images.githubusercontent.com/22459679/53396024-7a48d200-39b4-11e9-8f3f-d7c83a8a85ad.png)
 
 Now you can inspect your web element.
 
