@@ -210,7 +210,21 @@ driver.switch_to.window(driver.window_handles[0])
 
 **find_element_by..()**
 
-It is used to find the first element using the given method.
+It is used to find the first element using the given method. 
+To learn web page element, Right Click on web page | Click Inspect.
+ 
+![ ](https://user-images.githubusercontent.com/22459679/53395453-f2ae9380-39b2-11e9-8e1d-6d204faf0f8a.png)
+
+Click that item. 
+
+![ ](https://user-images.githubusercontent.com/22459679/53395630-5df86580-39b3-11e9-918c-bc391d88e035.png)
+
+Select an element on the page to inspect it.
+
+![ ](https://user-images.githubusercontent.com/22459679/53396024-7a48d200-39b4-11e9-8f3f-d7c83a8a85ad.png)
+
+Now you can inspect your web element.
+
 
 * **find_element_by_id**
 
