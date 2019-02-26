@@ -285,7 +285,7 @@ driver.find_element_by_xpath('//input[@placeholder="Enter role name or code"]').
 ...
 ```
 
-* You need to import **from selenium.webdriver.common.keys import Keys** to use keyboard keys(ENTER,CTRL..) as a key.
+* You need to **import from selenium.webdriver.common.keys import Keys** to use keyboard keys(ENTER,CTRL..) as a key.
 
 ```
 ...
