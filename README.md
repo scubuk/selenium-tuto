@@ -96,6 +96,7 @@ $ pip install selenium
 ## Selenium Methods
 
 When we get the driver object, with these methods that we can perform on a driver. Before we write these methods we have to import webdriver and test our setup(For running instructions go to 'Running the tests'). 
+
 **Note:** You should specify your driver path. Example: driver= webdriver.Chrome("web/driver/path")
 
 ```
