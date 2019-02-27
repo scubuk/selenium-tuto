@@ -43,7 +43,7 @@ $ pip install selenium
 ```
 
 * Selenium requires a driver to interface with the chosen browser. Download one of them. 
- >  [Click for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+ >  [Click for Chrome](https://chromedriver.storage.googleapis.com/index.html?path=2.46/)
  
  >  [Click for FireFox](https://github.com/mozilla/geckodriver/releases)
  
