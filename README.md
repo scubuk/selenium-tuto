@@ -21,6 +21,7 @@ You can check your Python is correctly installed like below.
 
 Once you’ve confirmed that Python is correctly installed, you can proceed with installing Pip.
 * Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer. Open the link and Right-Click | Save As.
+* Run the file, it will update PIP.
 * Open your cmd. (Windows+R and write cmd.)
 * Navigate to the folder(using cd command)containing get-pip.py. 
 
@@ -43,6 +44,8 @@ $ pip install selenium
 #OR
 $ pip install -U selenium
 ```
+
+The optional –U will upgrade the existing version of the installed package to the latest version.
 
 * Selenium requires a driver to interface with the chosen browser. Download one of them. 
  >  [Click for Chrome](http://chromedriver.chromium.org/downloads)
