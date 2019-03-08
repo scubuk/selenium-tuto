@@ -100,12 +100,15 @@ $ pip install -U selenium
 from selenium import webdriver
 import time
 ``
+
 Selenium :
+
 -It is using for using the automation.
 -Control the webdriver.
 –Perform actions like click(), refresh(), navigate to website..
 
 Time:
+
 -It is using for sleep function.(driver.sleep(10))
 -Selenium works only when the all the elements of the page is loaded other ways it would be fail.
 
@@ -289,6 +292,7 @@ driver.find_element_by_class_name("favorite styled")
 * **find_element_by_xpath**
 
 In Selenium automation, if the elements are not found by the general locators like id, class, name then XPath is used to find an element on the web page.
+
 XPath is defined as XML Path.
 
 To find the xpath of html code; right click on the element, click copy and choose "Copy XPath".
@@ -298,6 +302,7 @@ To find the xpath of html code; right click on the element, click copy and choos
 **Types of XPath**
 
 * Absolute Path
+
 It is the direct way to find the element.
 But disadvantage is that if there are any changes made in the path of the element then that Xpath gets failed. 
 
@@ -306,6 +311,7 @@ html/body/div[1]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div[1]
 ``
 
 * Relative Path
+
 It starts with the double forward slash (//), which means it can search the element anywhere at the webpage.
 You can start from the middle of the HTML structure and no need to write long xpath.
 
