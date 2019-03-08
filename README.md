@@ -28,7 +28,7 @@ Once you’ve confirmed that Python is correctly installed, you can proceed with
    ![ ](https://user-images.githubusercontent.com/22459679/53339475-85015980-3917-11e9-8b8e-928805f0c33e.PNG)
 * Run the following command:
 ```
-python get-pip.py
+> python get-pip.py
 ```
 You can verify that pip was installed correctly by opening a command prompt and entering the following command:
 
@@ -40,9 +40,9 @@ Selenium is a browser automation tool. Portable framework for testing web applic
 
 * Open your cmd and install Selenium. 
 ```sh
-$ pip install selenium
+> pip install selenium
 #OR
-$ pip install -U selenium
+> pip install -U selenium
 ```
 
 The optional –U will upgrade the existing version of the installed package to the latest version.
