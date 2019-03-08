@@ -21,8 +21,8 @@ You can check your Python is correctly installed like below.
 
 Once you’ve confirmed that Python is correctly installed, you can proceed with installing Pip.
 * Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer. Open the link and Right-Click | Save As.
-* Open a command prompt. (Windows+R and write cmd.)
-* Navigate to the folder containing get-pip.py. 
+* Open your cmd. (Windows+R and write cmd.)
+* Navigate to the folder(using cd command)containing get-pip.py. 
 
    ![ ](https://user-images.githubusercontent.com/22459679/53339475-85015980-3917-11e9-8b8e-928805f0c33e.PNG)
 * Run the following command:
@@ -97,7 +97,7 @@ $ pip install selenium
 
 When we get the driver object, with these methods that we can perform on a driver. Before we write these methods we have to import webdriver and test our setup(For running instructions go to 'Running the tests'). 
 
-**Note:** You should specify your driver path. Example: driver= webdriver.Chrome("web/driver/path")
+**Note:** You should specify your driver path. Example: driver= webdriver.Chrome("web/driver/path/chromedriver.exe")
 
 ```
 from selenium import webdriver
@@ -271,11 +271,34 @@ driver.find_element_by_class_name("favorite styled")
 
 * **find_element_by_xpath**
 
-This is most popular and easiest way to locate elements. This is used to find element by their specific path in case of duplicate or not suitable id's and names.
+In Selenium automation, if the elements are not found by the general locators like id, class, name then XPath is used to find an element on the web page.
+XPath is defined as XML Path.
 
 To find the xpath of html code; right click on the element, click copy and choose "Copy XPath".
 
 ![ ](https://user-images.githubusercontent.com/22459679/53171414-af8ba380-35f3-11e9-9025-9d3702e93a63.PNG)
+
+**Types of XPath**
+
+* Absolute Path
+It is the direct way to find the element.
+But disadvantage is that if there are any changes made in the path of the element then that Xpath gets failed. 
+
+``
+html/body/div[1]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div[1]/div/h4[1]/b
+``
+
+* Relative Path
+It starts with the double forward slash (//), which means it can search the element anywhere at the webpage.
+You can start from the middle of the HTML structure and no need to write long xpath.
+
+Xpath=//tagname[@attribute='value']
+
+Below is the example of a relative XPath expression of the same element shown in the absolute path.
+
+``
+//*[@class='featured-box']//*[text()='Testing']
+``
 
 These are different usage of find_element_by_xpath;
 
