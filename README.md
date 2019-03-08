@@ -338,7 +338,8 @@ driver.find_element_by_xpath('//input[@placeholder="Must be unique"]')
 driver.find_element_by_xpath('//*[@id="user-edit-page"]/form/div[6]/div/div/input')
 ...
 ```
-This is a great tutorial for understanding the XPath : [https://www.guru99.com/xpath-selenium.html]
+This is a [great tutorial for understanding the XPath] : (https://www.guru99.com/xpath-selenium.html)
+
 **find_elements_by..()**
 
 It is used to find all elements within the current page
