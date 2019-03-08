@@ -40,6 +40,8 @@ Selenium is a browser automation tool. Portable framework for testing web applic
 * Open your cmd and install Selenium. 
 ```sh
 $ pip install selenium
+#OR
+$ pip install -U selenium
 ```
 
 * Selenium requires a driver to interface with the chosen browser. Download one of them. 
@@ -91,6 +93,21 @@ $ pip install selenium
 
 * Now, you are all set up for writing your test automation.
 
+## Imported Library
+
+
+``
+from selenium import webdriver
+import time
+``
+Selenium :
+-It is using for using the automation.
+-Control the webdriver.
+–Perform actions like click(), refresh(), navigate to website..
+
+Time:
+-It is using for sleep function.(driver.sleep(10))
+-Selenium works only when the all the elements of the page is loaded other ways it would be fail.
 
 
 ## Selenium Methods
