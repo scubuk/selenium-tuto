@@ -48,7 +48,7 @@ The optional –U will upgrade the existing version of the installed package to 
 
 If the following error occurred; 
 
-![ ](http://hi3ms-image.huawei.com/hi/staticimages/hi3msg/images/2017/1109/15/5a03ff1489bd2.png)
+![ ](https://user-images.githubusercontent.com/22459679/56344539-56408a80-61c6-11e9-8607-4752f9b8172a.png)
 
 Change the proxy setting with run these commands;
 ```
