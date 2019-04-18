@@ -44,8 +44,22 @@ Selenium is a browser automation tool. Portable framework for testing web applic
 #OR
 > pip install -U selenium
 ```
-
 The optional –U will upgrade the existing version of the installed package to the latest version.
+
+If the following error occurred; 
+
+![ ](http://hi3ms-image.huawei.com/hi/staticimages/hi3msg/images/2017/1109/15/5a03ff1489bd2.png)
+
+Change the proxy setting with run these commands;
+```
+set HTTP_PROXY=http://YOUR_ID:YOUR_PASSWORD@proxyuk.huawei.com:8080
+set HTTPS_PROXY=http://YOUR_ID:YOUR_PASSWORD@proxyuk.huawei.com:8080
+```
+
+Verify that the installation was successfull.
+```
+pip show selenium
+```
 
 * Selenium requires a driver to interface with the chosen browser. Download one of them. 
  >  [Click for Chrome](http://chromedriver.chromium.org/downloads)
