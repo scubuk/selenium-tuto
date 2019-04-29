@@ -46,7 +46,7 @@ Selenium is a browser automation tool. Portable framework for testing web applic
 ```
 The optional –U will upgrade the existing version of the installed package to the latest version.
 
-If the following error occurred; 
+**Note:** If the following error occurred; 
 
 ![ ](https://user-images.githubusercontent.com/22459679/56344539-56408a80-61c6-11e9-8607-4752f9b8172a.png)
 
